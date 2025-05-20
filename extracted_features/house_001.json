@@ -1,0 +1,15 @@
+{
+    "image_path": "house_001.png",
+    "features": [
+        "Thatching",
+        "Hut",
+        "Cottage",
+        "Village",
+        "Soil",
+        "Natural material",
+        "Shack",
+        "Log cabin",
+        "Shed",
+        "Garden buildings"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "image_path": "crossing_001.png",
+    "features": [
+        "Road surface",
+        "Road",
+        "Urban area",
+        "Pedestrian crossing",
+        "Street",
+        "City",
+        "Pedestrian",
+        "Zebra crossing",
+        "Sidewalk",
+        "Public space"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "image_path": "car_001.png",
+    "features": [
+        "Commercial vehicle",
+        "Light commercial vehicle",
+        "Van",
+        "Compact van",
+        "GMC",
+        "Minivan"
+    ]
+}

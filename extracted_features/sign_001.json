@@ -1,0 +1,15 @@
+{
+    "image_path": "sign_001.png",
+    "features": [
+        "Pedestrian",
+        "Traffic sign",
+        "Sign",
+        "Intersection",
+        "Sidewalk",
+        "Street name sign",
+        "Pedestrian crossing",
+        "signaling device",
+        "Walking",
+        "Traffic light"
+    ]
+}

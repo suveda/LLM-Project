@@ -1,0 +1,15 @@
+{
+    "image_path": "train_001.png",
+    "features": [
+        "Urban design",
+        "Scale model",
+        "Track",
+        "Rail transport",
+        "Train",
+        "Rolling stock",
+        "Locomotive",
+        "Intersection",
+        "Road junction",
+        "Railroad car"
+    ]
+}
