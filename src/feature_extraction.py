@@ -51,7 +51,7 @@ def process_image(folder_path,output_folder,single_image=None):
 
 if __name__=="__main__":
 
-    folder_path = "C:\\Users\\EndUser\\Downloads\\LLM Project\\images"
+    folder_path = "C:\\Users\\EndUser\\Downloads\\LLM-Project\\images"
     
     output_folder = "../extracted_features"
 

@@ -78,9 +78,9 @@ print("All embeddings generated and saved successfully!")
 
 if __name__=='__main__':
 
-    feature_extraction_path = "C:\\Users\\EndUser\\Downloads\\LLM Project\\extracted_features"
+    feature_extraction_path = "C:\\Users\\EndUser\\Downloads\\LLM-Project\\extracted_features"
 
-    embedding_path = "C:\\Users\\EndUser\\Downloads\\LLM Project\\extracted_embeddings"
+    embedding_path = "C:\\Users\\EndUser\\Downloads\\LLM-Project\\extracted_embeddings"
 
     if not os.path.exists(embedding_path):
         os.makedirs(embedding_path)

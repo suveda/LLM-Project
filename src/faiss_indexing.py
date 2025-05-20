@@ -54,9 +54,9 @@ def build_faiss_index(embedding_path,faiss_index_path):
 
 if __name__=="__main__":
 
-    embedding_path = "C:\\Users\\EndUser\\Downloads\\LLM Project\\extracted_embeddings"
+    embedding_path = "C:\\Users\\EndUser\\Downloads\\LLM-Project\\extracted_embeddings"
 
-    faiss_index_path = "C:\\Users\\EndUser\\Downloads\\LLM Project\\faiss_index"
+    faiss_index_path = "C:\\Users\\EndUser\\Downloads\\LLM-Project\\faiss_index"
 
     if not os.path.exists(faiss_index_path):
         os.makedirs(faiss_index_path)

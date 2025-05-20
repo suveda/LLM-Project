@@ -9,7 +9,7 @@ from genai_integration import generate_caption
 from langchain_huggingface import HuggingFaceEmbeddings
 from PIL import Image
 
-faiss_index_path = "C:\\Users\\EndUser\\Downloads\\LLM Project\\faiss_index"
+faiss_index_path = "C:\\Users\\EndUser\\Downloads\\LLM-Project\\faiss_index"
 
 hf_embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
@@ -49,7 +49,7 @@ if uploaded_file:
     full_query = f"Extracted Features: {",".join(features)}. Retrieved Descriptions: {retrieved_texts}"
 
     st.subheader("Caption Generation Inputs:")
-    st.write(full_query)  # Log what is actually being used for captioning
+    st.write(full_query)  
 
     # Generate Caption using Gemini AI
     caption = generate_caption(full_query,faiss_index_path)

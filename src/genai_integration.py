@@ -25,14 +25,14 @@ def generate_caption(query,faiss_index_path,top_k=5):
 
     **Similar Descriptions from FAISS (Ranked by Similarity):**
     {retrieved_info}
+    
+    **Task:** Write a short, natural-sounding image caption based on the above information.
+        - Make it clear and concise.
+        - Use everyday language.
+        - Focus only on what's visually important.
+        - Avoid technical terms or long explanations."
 
-    **Task:** Generate a highly descriptive, natural-sounding caption that integrates both the extracted features and retrieved descriptions.
-    - Describe how the retrieved objects relate to each other.
-    - If multiple animals or objects are present, describe their interaction.
-    - Describe the scene, background, and possible emotions.
-    - Avoid generic captions like "The image depicts a cat."
-
-    **Output:** Provide a rich, expressive caption in 2-3 sentences.
+    **Output:** One-sentence caption.
     """
     
     # Create the request to AI
@@ -46,7 +46,7 @@ def generate_caption(query,faiss_index_path,top_k=5):
 
 if __name__ == "__main__":
 
-    faiss_index_path = "C:\\Users\\EndUser\\Downloads\\LLM Project\\faiss_index"
+    faiss_index_path = "C:\\Users\\EndUser\\Downloads\\LLM-Project\\faiss_index"
     query = "What is in the image?"
     response = generate_caption(query,faiss_index_path)
     print(response)

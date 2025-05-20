@@ -36,7 +36,7 @@ def search_faiss(query, vector_store, top_k=5):
 
 if __name__=="__main__":
 
-    faiss_index_path = "C:\\Users\\EndUser\\Downloads\\LLM Project\\faiss_index"
+    faiss_index_path = "C:\\Users\\EndUser\\Downloads\\LLM-Project\\faiss_index"
 
     vector_store = get_vector_store(faiss_index_path)
 
