@@ -48,19 +48,18 @@ if uploaded_file:
     retrieved_texts = " ".join(similar_texts)
     full_query = f"Extracted Features: {",".join(features)}. Retrieved Descriptions: {retrieved_texts}"
 
-    st.subheader("📝 Caption Generation Inputs:")
+    st.subheader("Caption Generation Inputs:")
     st.write(full_query)  # Log what is actually being used for captioning
 
     # Generate Caption using Gemini AI
-    #caption = generate_caption(", ".join(features),faiss_index_path)
     caption = generate_caption(full_query,faiss_index_path)
 
     # Display results
-    st.subheader("🔍 Top 5 Similar Image Descriptions from FAISS:")
+    st.subheader("Top 5 Similar Image Descriptions from FAISS:")
     for i, (text, dist, idx) in enumerate(zip(similar_texts, distances, indices)):
         st.write(f"**Rank {i+1}:** Index {idx} - Text: {text} (Distance: {dist:.4f})")
 
-    st.subheader("📝 Generated Caption:")
+    st.subheader("Generated Caption:")
     st.write(caption)
 
 

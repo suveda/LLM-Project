@@ -36,6 +36,8 @@ def build_faiss_index(embedding_path,faiss_index_path):
 
     # Create a document store and document ID to index mapping
     docstore = {i: text for i, text in enumerate(texts)} 
+
+    # maps faiss index to correct docstore ID
     index_to_docstore_id = {i: i for i in range(len(texts))}  
 
     vector_store = FAISS(
